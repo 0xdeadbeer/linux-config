@@ -8,3 +8,6 @@ set cursorline
 
 colorscheme delek 
 set shell=/bin/bash
+
+set nobackup
+set nowritebackup
