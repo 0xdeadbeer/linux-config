@@ -1,13 +1,15 @@
 set number
 
-set noexpandtab
+set expandtab
 set tabstop=2
 set shiftwidth=2
 
-set cursorline 
+" set cursorline
 
-colorscheme delek 
+colorscheme delek
 set shell=/bin/bash
 
-set nobackup
+set nobackup 
 set nowritebackup
+set noswapfile
+set nowrap
