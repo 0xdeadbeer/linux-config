@@ -4,6 +4,8 @@ Configuration files & scripts I usually use for my linux rice & work-station.
 
 This repository may include anything related to my style of ricing Linux. 
 
+<img src="./preview.png" width="500" /> 
+
 Files: 
  - `/config/i3-config.conf` goes into `~/.config/i3/config`
  - `/config/i3-bar-config.conf` goes into `/etc/i3status.conf`
