@@ -3,7 +3,8 @@ lua require("lualine").setup()
 
 " === GENERAL === 
 
-colorscheme gruvbox
+colorscheme dracula
+
 set number
 set expandtab
 

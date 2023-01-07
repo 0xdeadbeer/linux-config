@@ -45,7 +45,10 @@ return require('packer').startup(function(use)
   use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
 
   -- Post-install/update hook with neovim command
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use {
+    'nvim-treesitter/nvim-treesitter', 
+    config = 'require("treesitter")'
+  }
 
   -- Post-install/update hook with call of vimscript function with argument
   use { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end }
@@ -70,7 +73,7 @@ return require('packer').startup(function(use)
     requires = {{ 'nvim-lua/plenary.nvim' }}
   }
 
-  use {
+   use {
     "nvim-lualine/lualine.nvim",
     requires = {"kyazdani42/nvim-web-devicons", opt = true}
   }
