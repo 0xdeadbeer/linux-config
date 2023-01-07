@@ -4,7 +4,7 @@ Configuration files & scripts I usually use for my linux rice & work-station.
 
 This repository may include anything related to my style of ricing Linux. 
 
-<img src="./preview.png" width="700" /> 
+<img src="./previews/002-preview.png" width="700" /> 
 
 Files: 
  - `/config/i3-config.conf` goes into `~/.config/i3/config`
