@@ -3,7 +3,7 @@ lua require("lualine").setup()
 
 " === GENERAL === 
 
-colorscheme dracula
+colorscheme catppuccin-mocha
 
 set number
 set expandtab

@@ -82,4 +82,6 @@ return require('packer').startup(function(use)
 
   use { "ellisonleao/gruvbox.nvim" }
 
+  use { "catppuccin/nvim", as = "catppuccin" }
+
 end)
