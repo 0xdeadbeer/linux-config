@@ -4,8 +4,8 @@ Configuration files & scripts I usually use for my linux rice & work-station.
 
 This repository may include anything related to my style of ricing Linux. 
 
-<img src="./previews/003-01-preview.png" width="700" /> 
 <img src="./previews/003-02-preview.png" width="700" /> 
+<img src="./previews/003-01-preview.png" width="700" /> 
 
 Specs: 
  - Arch Linux: I use arch btw! ;) 
