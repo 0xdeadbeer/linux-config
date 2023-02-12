@@ -7,19 +7,19 @@ return require('packer').startup(function(use)
 
   -- Lazy loading:
   -- Load on specific commands
-  use {'tpope/vim-dispatch', opt = true, cmd = {'Dispatch', 'Make', 'Focus', 'Start'}}
+   use {'tpope/vim-dispatch', opt = true, cmd = {'Dispatch', 'Make', 'Focus', 'Start'}}
 
   -- Load on an autocommand event
   use {'andymass/vim-matchup', event = 'VimEnter'}
 
   -- Load on a combination of conditions: specific filetypes or commands
   -- Also run code after load (see the "config" key)
-  use {
-    'w0rp/ale',
-    ft = {'sh', 'zsh', 'bash', 'c', 'cpp', 'cmake', 'html', 'markdown', 'racket', 'vim', 'tex'},
-    cmd = 'ALEEnable',
-    config = 'vim.cmd[[ALEEnable]]'
-  }
+  --use {
+  --  'w0rp/ale',
+  --  ft = {'sh', 'zsh', 'bash', 'c', 'cpp', 'cmake', 'html', 'markdown', 'racket', 'vim', 'tex'},
+  --  cmd = 'ALEEnable',
+  --  config = 'vim.cmd[[ALEEnable]]'
+  --}
 
   -- Plugins can have dependencies on other plugins
   use {
@@ -73,15 +73,15 @@ return require('packer').startup(function(use)
     requires = {{ 'nvim-lua/plenary.nvim' }}
   }
 
-   use {
+  use {
     "nvim-lualine/lualine.nvim",
     requires = {"kyazdani42/nvim-web-devicons", opt = true}
   }
 
   use { "gko/vim-coloresque" }
-
+  
   use { "ellisonleao/gruvbox.nvim" }
 
   use { "catppuccin/nvim", as = "catppuccin" }
-
+  
 end)

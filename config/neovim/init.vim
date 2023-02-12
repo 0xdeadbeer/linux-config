@@ -3,8 +3,6 @@ lua require("lualine").setup()
 
 " === GENERAL === 
 
-colorscheme catppuccin-mocha
-
 set number
 set expandtab
 
