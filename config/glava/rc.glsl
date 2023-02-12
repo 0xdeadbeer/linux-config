@@ -19,7 +19,7 @@
 #request setfloating false
 #request setdecorated true
 #request setfocused   false
-#request setmaximized true
+#request setmaximized false
 
 /* Set window background opacity mode. Possible values are:
    
@@ -37,7 +37,7 @@
 #request setopacity "xroot"
 
 /* Whether to mirror left and right audio input channels from PulseAudio.*/
-#request setmirror true
+#request setmirror false
 
 /* OpenGL context and GLSL shader versions, do not change unless
    you *absolutely* know what you are doing. */
@@ -48,7 +48,7 @@
 #request settitle "GLava"
 
 /* Window geometry (x, y, width, height) */
-#request setgeometry 0 0 1920 1200
+#request setgeometry 0 50 1100 1100
 
 /* Window background color (RGB format).
    Does not work with `setopacity "xroot"` */
@@ -127,7 +127,7 @@
    
    This will delay data output by one update frame, so it can
    desync audio with visual effects on low UPS configs. */
-#request setinterpolate true
+#request setinterpolate false
 
 /* Frame limiter, set to the frames per second (FPS) desired or
    simply set to zero (or lower) to disable the frame limiter. */
