@@ -21,6 +21,7 @@ Files:
  - `/config/i3-config.conf` goes into `~/.config/i3/config`
  - `/config/i3-bar-config.conf` goes into `/etc/i3status.conf`
  - `/config/picom/picom.conf` goes into `/etc/xdg/picom.conf` 
+ - `/config/polybar` goes into `~/.config/polybar/` renamed as `shades` (modified theme from <a href="github.com/adi1090x/polybar-themes">adi1090x polybar-themes</a>
  - `/config/vim-config.conf` goes into `~/.vimrc`
  - `/config/nvim/init.vim` goes into `~/.config/nvim/init.vim`
  - `/config/nvim/plugins.lua` goes into `/.config/nvim/lua/plugins.lua`
